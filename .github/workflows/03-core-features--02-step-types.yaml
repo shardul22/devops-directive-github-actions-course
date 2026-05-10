@@ -11,7 +11,6 @@ jobs:
 
   say-hello-inline-python:
     runs-on: ubuntu-24.04
-    needs: say-hello-inline-bash
     steps:
       - run: print("Hello from an inline python script in a GitHub Action Workflow!")
         shell: python
